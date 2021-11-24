@@ -1,11 +1,12 @@
 <?php
 
-if(isset($_POST['field 1']) && isset($_POST['field 2'])){
+if(isset($_POST['Title']) && isset($_POST['body'])){
 
-    $blog = $_POST['field 1'] . "\n" . $_POST['field 2'];
-    $name = "/blogs" . "/" . $_POST['field 1'] . ".txt";
+    $blog = $_POST['Title'] . "\n\n" . $_POST['body'];
+    $name = "./blogs/" . $_POST['Title'] . ".txt";
 
-    file_put_contents($name, $blog, FILE_APPEND | LOCK_EX);
+    $fh = fopen($name, "w") or die("Unable to open file!");
+    file_put_contents($name, $blog);
 
 }
 
