@@ -5,9 +5,9 @@ email: jamesreeping@u.boisestate.edu
 
 ## How to run this website
 
-#First: On a linux Vm, run 'setup.sh'
-#Second: In a terminal run 'php -S localhost:port'
-#Third: Navigate to 'localhost:port' in a web browser
+# First: On a linux Vm, run 'setup.sh'
+# Second: In a terminal run 'php -S localhost:port'
+# Third: Navigate to 'localhost:port' in a web browser
 
 ## Bugs
 
