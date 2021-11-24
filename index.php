@@ -12,8 +12,10 @@
   <img src="img/thedude.jpg" alt="The dude">
 
   <form method ="post" action="blogs.php">
-    <input name="Title" type="text"/>
-    <input name="body" type="text"/>
+    <label for="title">Blog Title</label>
+    <input name="Title" id="title" type="text"/>
+    <label for="title">Blog</label>
+    <textarea name="body" id="bodyarea"></textarea>
     <input type="submit" name="post"/>
   </form>
 

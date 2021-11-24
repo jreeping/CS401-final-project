@@ -1,3 +1,33 @@
 h1 {
     color:blue;
 }
+
+#bodyarea {
+
+    width: 400px;
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: justify;
+    display: block;
+    margin: 7px 1px;
+    border: 1px solid;
+    border-radius: 7px;
+    box-sizing: border-box;
+    vertical-align: left;
+
+}
+
+#title {
+    
+    width: 400px;
+    height: 30px;
+    display: block;
+    margin: 7px 1px;
+    border: 1px solid;
+    border-radius: 7px;
+    box-sizing: border-box;
+    vertical-align: left;
+
+}
+
