@@ -1,7 +1,7 @@
 # Final website for CS401
 
-Name: YOUR NAME HERE
-email: YOUR EMAIL HERE
+Name: James Reeping
+email: jamesreeping@u.boisestate.edu
 
 ## How to run this website
 
