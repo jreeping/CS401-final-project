@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Blog Deleted</title>
+</head>
+
+
+<body>
+
 <?php
 
 if(isset($_POST['Title']) && isset($_POST['body'])){
@@ -11,3 +22,12 @@ if(isset($_POST['Title']) && isset($_POST['body'])){
 }
 
 echo "<p> Blog Successfully saved! </p>";
+
+?>
+
+  <form method="post" action="displayBlogs.php">
+    <input type = "submit" name="post" value="All Blogs" class="blogs"/>
+  </form>
+
+
+</body>

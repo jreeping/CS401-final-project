@@ -3,12 +3,20 @@
 
 <head>
   <link rel="stylesheet" href="css/style.css">
-  <title>Hello World</title>
+  <title>James's blog</title>
 </head>
 
 
 <body>  
-  <?php echo "<h1>Hello World! (CSS has changed this text to blue!)</h1>" ?>  
+  <?php echo "<h1>Welcome to James's Blog</h1>" ?> 
+  
+  
+  <form method="post" action="displayBlogs.php">
+    <input type = "submit" name="post" value="All Blogs" class="blogs"/>
+  </form>
+  
+  
+  
   <img src="img/thedude.jpg" alt="The dude">
 
   <form method ="post" action="blogs.php">
@@ -20,7 +28,7 @@
   </form>
 
   <?php include("example.php"); ?>
-  <?php include("blogs.php"); ?>
+  
   <button type="button" onclick="helloJS()">Click Me!</button>
   
 </body>
