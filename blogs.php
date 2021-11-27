@@ -25,7 +25,7 @@ echo "<p> Blog Successfully saved! </p>";
 
 ?>
 
-  <form method="post" action="displayBlogs.php">
+  <form method="post" action="index.php">
     <input type = "submit" name="post" value="All Blogs" class="blogs"/>
   </form>
 

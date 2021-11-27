@@ -8,24 +8,42 @@
 
 
 <body>  
-  <?php echo "<h1>Welcome to James's Blog</h1>" ?> 
+  <?php 
+    echo "<h1>Welcome to James's Blog</h1>"; 
+  
+    echo "<form method='post' action='newBlog.php'>";
+    echo "<input type = 'submit' name='post' value='New Blog' class='blogs'/>";
+    echo "</form>";
   
   
-  <form method="post" action="displayBlogs.php">
-    <input type = "submit" name="post" value="All Blogs" class="blogs"/>
-  </form>
+  $dir = './blogs';
+$files = array_diff(scandir($dir), array('.', '..'));
+
+foreach ($files as $file) {
+
+  $finalDel = pathinfo($file, PATHINFO_FILENAME);
+  echo $finalDel . "\n";
+  $filename = "./blogs/" . $file;
+  $content = file_get_contents($filename);
+  echo "<textarea class='all'>$content</textarea>";
+  
+ 
   
   
+  echo "<form method='post' action='deleteBlog.php'>";
+  echo " Title: <input type='text' name='title'/>";
+  echo "    <input type = 'submit' name='post' value='Delete' class='$finalDel'/>";
+  echo "</form>"; 
+  
+  //maybe type edit into field to edit and check if $_POST=='edit'
+
+}
+  
+  ?> 
   
   <img src="img/thedude.jpg" alt="The dude">
 
-  <form method ="post" action="blogs.php">
-    <label for="title">Blog Title</label>
-    <input name="Title" id="title" type="text"/>
-    <label for="title">Blog</label>
-    <textarea name="body" id="bodyarea"></textarea>
-    <input type="submit" name="post"/>
-  </form>
+
 
   <?php include("example.php"); ?>
   
