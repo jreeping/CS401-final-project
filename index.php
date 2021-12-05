@@ -28,7 +28,10 @@ foreach ($files as $file) {
   echo "<textarea class='all'>$content</textarea>";
   
  
-  
+  echo "<form method='post' action='editBlogs.php'>";
+  echo " Title: <input type='text' name='title'/>";
+  echo "    <input type = 'submit' name='post' value='Edit'/>";
+  echo "</form>"; 
   
   echo "<form method='post' action='deleteBlog.php'>";
   echo " Title: <input type='text' name='title'/>";
@@ -42,12 +45,8 @@ foreach ($files as $file) {
   ?> 
   
   <img src="img/thedude.jpg" alt="The dude">
-
-
-
-  <?php include("example.php"); ?>
   
-  <button type="button" onclick="helloJS()">Click Me!</button>
+  <button type="button" onclick="helloJS()">About</button>
   
 </body>
   <script src="js/main.js"></script>
