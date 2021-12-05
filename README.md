@@ -15,4 +15,6 @@ Detail any known bugs here
 
 ## Features
 
-Review all the features of your app here.
+-This app is a Blog Editor and Displays
+-You can create, edit, and delete blogs
+-You can also view all blogs on the main page "index.php"
