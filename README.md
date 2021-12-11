@@ -15,9 +15,9 @@ Detail any known bugs here
 
 ## Features
 
-####This app is a Blog Editor and Displays
-####You can create, edit, and delete blogs
-####You can also view all blogs on the main page "index.php"
+#### This website is a Blog Website
+#### You can create, edit, and delete blogs
+#### You can also view all blogs on the main page "index.php"
 
 # Creation
 * To create a blog you click New Blog which takes you to another page
