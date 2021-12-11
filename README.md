@@ -32,6 +32,6 @@ Detail any known bugs here
 * Then proceed to click all blogs to return to the main page
 
 # Deletion
-** To edit a blog you go under the blog you want to edit and type the title of the blog
+* To edit a blog you go under the blog you want to edit and type the title of the blog
 * Then you hit delete and it deletes the blog and says successfully deleted
 * Then proceed to click all blogs to return to the main page
