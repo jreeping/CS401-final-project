@@ -3,7 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="css/style.css">
-  <title>Blog Deleted</title>
+  <title>Blog Saved</title>
 </head>
 
 

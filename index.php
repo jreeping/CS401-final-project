@@ -16,13 +16,13 @@
     echo "</form>";
   
   
-  $dir = './blogs';
+$dir = './blogs';
 $files = array_diff(scandir($dir), array('.', '..'));
 
 foreach ($files as $file) {
 
   $finalDel = pathinfo($file, PATHINFO_FILENAME);
-  echo $finalDel . "\n";
+  
   $filename = "./blogs/" . $file;
   $content = file_get_contents($filename);
   echo "<textarea class='all'>$content</textarea>";
@@ -37,17 +37,18 @@ foreach ($files as $file) {
   echo " Title: <input type='text' name='title'/>";
   echo "    <input type = 'submit' name='post' value='Delete' class='$finalDel'/>";
   echo "</form>"; 
-  
-  //maybe type edit into field to edit and check if $_POST=='edit'
+  echo "\n";
+
 
 }
   
   ?> 
   
-  <img src="img/thedude.jpg" alt="The dude">
+
   
-  <button type="button" onclick="helloJS()">About</button>
+  <button class="about" type="button" onclick="helloJS()">About</button>
   
 </body>
+
   <script src="js/main.js"></script>
 </html>

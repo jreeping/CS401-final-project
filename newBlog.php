@@ -3,7 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="css/style.css">
-  <title>All Blogs</title>
+  <title>Create A New Blog</title>
 </head>
 
 

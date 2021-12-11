@@ -21,7 +21,7 @@ if(isset($_POST['title'])){
 	}
 	else{
 	
-		echo("Blog successfully deleted");
+		echo("<p>Blog successfully deleted</p>");
 	}
 
 }

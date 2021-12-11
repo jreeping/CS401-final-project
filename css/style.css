@@ -2,6 +2,24 @@ h1 {
     color:blue;
 }
 
+body{
+	background-image: url("../pics/back.jpeg");
+}
+
+form{
+	color: white;
+}
+
+button{
+	background-color: #6FE5FD;
+}
+
+p{
+	color:white;
+
+}
+
+
 #bodyarea {
 
     width: 400px;
@@ -59,7 +77,6 @@ textarea {
 
 
 }
-
 
 
 

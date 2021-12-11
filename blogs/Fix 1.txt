@@ -3,3 +3,5 @@ Fix 1
 This is exactly what we needed to see to be able to tell if the blog is working correctly I am currently fixing the sizing problems with the body area and hoping that this has fixed the issues that we have been having.
 
 Hoping that this editing works as I am expecting it to and I can start working on UI design next
+
+This subsequent text shows the editing works
